@@ -7,11 +7,9 @@ const WelcomeScreen = () => {
         <View style={styles.group} />
         <View style={styles.group}>
           <Image style={styles.logo} source={require("./logo.png")} />
-          <Text style={styles.text}>
-            Let's build something amazing together!
-          </Text>
+          <Text style={styles.text}>{"Hello World\n          "}</Text>
         </View>
-        <Text style={styles.footer}>Made with ❤️ by Crowdbotics</Text>
+        <Text style={styles.footer}>{"Desenvolvido por Marcelo"}</Text>
       </ScrollView>
     </SafeAreaView>;
 };
