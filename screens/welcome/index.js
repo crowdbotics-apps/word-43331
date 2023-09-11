@@ -6,7 +6,7 @@ const WelcomeScreen = () => {
       <ScrollView contentContainerStyle={styles.scrollView}>
         <View style={styles.group} />
         <View style={styles.group}>
-          <Image style={styles.logo} source={require("./logo.png")} />
+          <Image style={styles.logo} source={require("./46faa630-5f7d-40ce-baec-16979b9c6233.jpeg")} />
           <Text style={styles.text}>{"Hello World\n          "}</Text>
         </View>
         <Text style={styles.footer}>{"Desenvolvido por Marcelo"}</Text>
